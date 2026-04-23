@@ -1,0 +1,3 @@
+# Threshold Recommendation
+
+For **RF_default**, the recommended operating threshold is **0.70**. At this threshold, the model is expected to generate about **10.0 alerts per 1,000 customers** (approximately **100 alerts per 10,000 customers**), which fits Petra Telecom's monthly outreach capacity of **150 contacts**. Under this constraint, this threshold gives the **highest recall** among the tested options while keeping outreach volume operationally feasible. The business trade-off is that lowering the threshold would catch more churners but would exceed team capacity, while raising it further would reduce wasted effort but miss more at-risk customers.
